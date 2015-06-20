@@ -25,7 +25,7 @@ Some lines you should add are:
   There's no purpose for the default limit, especially on SSDs.
 - `shopt -s globstar` - support `**/*.js` commands.
 - `export JOBS=max` - tells `npm` to compile and install all your native addons in parallel and not sequentially.
-  This greatly increases installation times.
+  This greatly decreases installation times.
 
 ## XCode Command Line Tools
 
